@@ -37,7 +37,6 @@ extension UIView {
         gradient.locations = locations
         self.layer.insertSublayer(gradient, at: 0)
         return gradient
-        
     }
     
 }
