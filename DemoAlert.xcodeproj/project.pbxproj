@@ -13,7 +13,6 @@
 		CB5D643128A2081700AADA02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5D642F28A2081700AADA02 /* Main.storyboard */; };
 		CB5D643328A2081A00AADA02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5D643228A2081A00AADA02 /* Assets.xcassets */; };
 		CB5D643628A2081A00AADA02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5D643428A2081A00AADA02 /* LaunchScreen.storyboard */; };
-		CB5D643E28A20A7F00AADA02 /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5D643D28A20A7F00AADA02 /* AppHelper.swift */; };
 		CB5D644A28A20FCC00AADA02 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5D644628A20FCC00AADA02 /* UIViewExtension.swift */; };
 		CB5D644B28A20FCC00AADA02 /* CommonAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5D644728A20FCC00AADA02 /* CommonAlertVC.swift */; };
 		CB5D644C28A20FCC00AADA02 /* CommonAlertVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB5D644828A20FCC00AADA02 /* CommonAlertVC.xib */; };
@@ -30,7 +29,6 @@
 		CB5D643228A2081A00AADA02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB5D643528A2081A00AADA02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB5D643728A2081A00AADA02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB5D643D28A20A7F00AADA02 /* AppHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
 		CB5D644628A20FCC00AADA02 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		CB5D644728A20FCC00AADA02 /* CommonAlertVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonAlertVC.swift; sourceTree = "<group>"; };
 		CB5D644828A20FCC00AADA02 /* CommonAlertVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonAlertVC.xib; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 				CB5D64A428A29B1800AADA02 /* Extension */,
 				CB5D644528A20FCC00AADA02 /* CustomAlert */,
 				CB5D642D28A2081700AADA02 /* ViewController.swift */,
-				CB5D643D28A20A7F00AADA02 /* AppHelper.swift */,
 				CB5D642F28A2081700AADA02 /* Main.storyboard */,
 				CB5D643228A2081A00AADA02 /* Assets.xcassets */,
 				CB5D643428A2081A00AADA02 /* LaunchScreen.storyboard */,
@@ -85,7 +82,6 @@
 		CB5D644528A20FCC00AADA02 /* CustomAlert */ = {
 			isa = PBXGroup;
 			children = (
-				CB5D644628A20FCC00AADA02 /* UIViewExtension.swift */,
 				CB5D644728A20FCC00AADA02 /* CommonAlertVC.swift */,
 				CB5D644828A20FCC00AADA02 /* CommonAlertVC.xib */,
 				CB5D645E28A2744D00AADA02 /* PopupHelper.swift */,
@@ -97,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				CB5D64A528A29C1100AADA02 /* UIControlExtension.swift */,
+				CB5D644628A20FCC00AADA02 /* UIViewExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -179,7 +176,6 @@
 				CB5D642E28A2081700AADA02 /* ViewController.swift in Sources */,
 				CB5D642A28A2081700AADA02 /* AppDelegate.swift in Sources */,
 				CB5D642C28A2081700AADA02 /* SceneDelegate.swift in Sources */,
-				CB5D643E28A20A7F00AADA02 /* AppHelper.swift in Sources */,
 				CB5D64A628A29C1100AADA02 /* UIControlExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
