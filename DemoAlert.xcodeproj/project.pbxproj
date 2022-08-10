@@ -18,6 +18,8 @@
 		CB5D644C28A20FCC00AADA02 /* CommonAlertVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB5D644828A20FCC00AADA02 /* CommonAlertVC.xib */; };
 		CB5D645F28A2744D00AADA02 /* PopupHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5D645E28A2744D00AADA02 /* PopupHelper.swift */; };
 		CB5D64A628A29C1100AADA02 /* UIControlExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5D64A528A29C1100AADA02 /* UIControlExtension.swift */; };
+		CB708B4028A3616200404635 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB708B3E28A3616200404635 /* HomeViewController.swift */; };
+		CB708B4128A3616200404635 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB708B3F28A3616200404635 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		CB5D644828A20FCC00AADA02 /* CommonAlertVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonAlertVC.xib; sourceTree = "<group>"; };
 		CB5D645E28A2744D00AADA02 /* PopupHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupHelper.swift; sourceTree = "<group>"; };
 		CB5D64A528A29C1100AADA02 /* UIControlExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIControlExtension.swift; sourceTree = "<group>"; };
+		CB708B3E28A3616200404635 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CB708B3F28A3616200404635 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 				CB5D64A428A29B1800AADA02 /* Extension */,
 				CB5D644528A20FCC00AADA02 /* CustomAlert */,
 				CB5D642D28A2081700AADA02 /* ViewController.swift */,
+				CB708B3E28A3616200404635 /* HomeViewController.swift */,
+				CB708B3F28A3616200404635 /* HomeViewController.xib */,
 				CB5D642F28A2081700AADA02 /* Main.storyboard */,
 				CB5D643228A2081A00AADA02 /* Assets.xcassets */,
 				CB5D643428A2081A00AADA02 /* LaunchScreen.storyboard */,
@@ -158,6 +164,7 @@
 			files = (
 				CB5D644C28A20FCC00AADA02 /* CommonAlertVC.xib in Resources */,
 				CB5D643628A2081A00AADA02 /* LaunchScreen.storyboard in Resources */,
+				CB708B4128A3616200404635 /* HomeViewController.xib in Resources */,
 				CB5D643328A2081A00AADA02 /* Assets.xcassets in Resources */,
 				CB5D643128A2081700AADA02 /* Main.storyboard in Resources */,
 			);
@@ -173,6 +180,7 @@
 				CB5D645F28A2744D00AADA02 /* PopupHelper.swift in Sources */,
 				CB5D644B28A20FCC00AADA02 /* CommonAlertVC.swift in Sources */,
 				CB5D644A28A20FCC00AADA02 /* UIViewExtension.swift in Sources */,
+				CB708B4028A3616200404635 /* HomeViewController.swift in Sources */,
 				CB5D642E28A2081700AADA02 /* ViewController.swift in Sources */,
 				CB5D642A28A2081700AADA02 /* AppDelegate.swift in Sources */,
 				CB5D642C28A2081700AADA02 /* SceneDelegate.swift in Sources */,

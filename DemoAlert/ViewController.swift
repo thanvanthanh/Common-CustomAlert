@@ -19,6 +19,8 @@ class ViewController: UIViewController {
                                message: "If you forget you PIN, you need to log in again. All default settings will be restored following PIN reset.If you forget you PIN, you need to log in again. All default settings will be restored following PIN reset.If you forget you PIN, you need to log in again. All default settings will be restored following PIN reset.If you forget you PIN, you need to log in again. All default settings will be restored following PIN reset.",
                                activeTitle: "Active",
                                activeAction: {
+            let vc = HomeViewController()
+            self.present(vc, animated: true)
             print("Active")
         },
                                cancelTitle: "Cancel") {
@@ -33,6 +35,8 @@ class ViewController: UIViewController {
                                warning: "*If you forget you PIN, you need to log in again. All default settings will be restored following PIN reset.",
                                activeTitle: "Confirm",
                                activeAction: {
+            let vc = HomeViewController()
+            self.present(vc, animated: true)
             print("Confirm")
         }, cancelTitle: "Cancel") {
             print("Cancel")
@@ -41,6 +45,8 @@ class ViewController: UIViewController {
     
     @IBAction func button3Action(_ sender: Any) {
         PopupHelper.share.show(viewController: self, title: "Notice",message: "Your are now leaving the Probit Global App. Press go to continue", activeTitle: "Go", activeAction: {
+            let vc = HomeViewController()
+            self.present(vc, animated: true)
             print("Go")
         }, cancelTitle: "Cancel") {
             print("Cancel")

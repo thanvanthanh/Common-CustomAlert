@@ -41,6 +41,6 @@ class PopupHelper {
     }
     
     func dismissPopup(){
-        destinationViewController?.dismiss(animated: false)
+        destinationViewController?.dismiss(animated: true)
     }
 }
