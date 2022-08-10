@@ -39,4 +39,8 @@ class PopupHelper {
         alertVC.modalTransitionStyle = .crossDissolve
         viewController.present(alertVC, animated: true)
     }
+    
+    func dismissPopup(){
+        destinationViewController?.dismiss(animated: false)
+    }
 }
