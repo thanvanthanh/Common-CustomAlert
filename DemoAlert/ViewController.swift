@@ -47,5 +47,14 @@ class ViewController: UIViewController {
         }
     
     }
+    @IBAction func buttonAutoDismiss(_ sender: Any) {
+        PopupHelper.share.show(viewController: self, title: "Test Auto dismiss", message: "Dismiss after 3 seconds", activeTitle: "", activeAction: nil, cancelTitle: "", cancelAction: nil)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            // Excecute after 3 seconds
+            PopupHelper.share.dismissPopup()
+        }
+        
+    }
 }
 

@@ -40,6 +40,14 @@
                                     <action selector="button3Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ruo-vu-Hse"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tV9-Z7-wmv">
+                                <rect key="frame" x="173.5" y="396.5" width="67" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="buttonAutoDismiss:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dRe-K2-iJP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -47,8 +55,10 @@
                             <constraint firstItem="aNo-7Z-iBW" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="9Wt-lx-xAn"/>
                             <constraint firstItem="aNo-7Z-iBW" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Cg8-mK-lHj"/>
                             <constraint firstItem="03t-o2-WSJ" firstAttribute="top" secondItem="aNo-7Z-iBW" secondAttribute="bottom" constant="10" id="Eye-Um-qGr"/>
+                            <constraint firstItem="tV9-Z7-wmv" firstAttribute="centerX" secondItem="aNo-7Z-iBW" secondAttribute="centerX" id="YYq-Jn-rwh"/>
                             <constraint firstItem="g0j-Ky-7r2" firstAttribute="top" secondItem="03t-o2-WSJ" secondAttribute="bottom" constant="10" id="Ypw-SO-FAV"/>
                             <constraint firstItem="g0j-Ky-7r2" firstAttribute="centerX" secondItem="03t-o2-WSJ" secondAttribute="centerX" id="ain-ed-6qI"/>
+                            <constraint firstItem="aNo-7Z-iBW" firstAttribute="top" secondItem="tV9-Z7-wmv" secondAttribute="bottom" constant="10" id="mOQ-yb-J4a"/>
                             <constraint firstItem="03t-o2-WSJ" firstAttribute="centerX" secondItem="aNo-7Z-iBW" secondAttribute="centerX" id="txP-T5-1xb"/>
                         </constraints>
                     </view>
