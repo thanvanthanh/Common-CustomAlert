@@ -34,6 +34,7 @@ class PopupHelper {
             .setCancelButton(cancelTitle)
             .setCancelButton(cancelAction)
         destinationViewController = alertVC
+        
         alertVC.modalPresentationStyle = .overCurrentContext
         alertVC.modalTransitionStyle = .crossDissolve
         viewController.present(alertVC, animated: true)
