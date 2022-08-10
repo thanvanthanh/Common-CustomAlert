@@ -12,9 +12,6 @@ typealias Action = (() -> Void)
 class PopupHelper {
     static let share = PopupHelper()
     
-    var destinationViewController: UIViewController?
-
-    
     func show(viewController: UIViewController,
               title: String?,
               message: String?,
@@ -25,7 +22,6 @@ class PopupHelper {
               cancelAction: Action?) {
         
         let alertVC = CommonAlertVC.init(nibName: "CommonAlertVC", bundle: nil)
-        alertVC.viewDidLoad()
         alertVC
             .load()
             .setTitle(title)
@@ -35,7 +31,6 @@ class PopupHelper {
             .setActiveButton(activeAction)
             .setCancelButton(cancelTitle)
             .setCancelButton(cancelAction)
-        destinationViewController = alertVC
         
         alertVC.modalPresentationStyle = .overCurrentContext
         alertVC.modalTransitionStyle = .crossDissolve
